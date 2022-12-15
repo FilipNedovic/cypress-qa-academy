@@ -27,7 +27,7 @@
 Cypress.Commands.add("loginBE", () => {
   cy.request({
     method: "POST",
-    url: "https://cypress-api.vivifyscrum-stage.com/api/v2/login ",
+    url: `${Cypress.env("apiUrl")}/login`,
     body: {
       email: Cypress.env("testUserEmail"),
       password: Cypress.env("testUserPass"),
