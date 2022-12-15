@@ -35,6 +35,6 @@ describe("login test", () => {
       expect(interception.response.statusCode).eq(200);
     });
 
-    cy.url().should("include", "my-organizations");
+    cy.url().should("include", "/my-organizations");
   });
 });
