@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FilipNedovic/cypress-qa17#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "cypress": "^12.1.0"
   }
 }
