@@ -61,8 +61,8 @@ describe("create organization test", () => {
       .eq(-3)
       .scrollIntoView()
       .should("be.visible");
-    myOrganizationsPage
-      .getOrganizationCardTitle(-3)
-      .should("have.text", randomOrgName);
+    myOrganizationsPage.getOrganizationCardTitle(-3).then((title) => {
+      expect(title).to.be.equal(randomOrgName);
+    });
   });
 });
