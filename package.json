@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:e2e": "./node_modules/.bin/cypress open"
+    "cypress:e2e:headed": ".\\node_modules\\.bin\\cypress open",
+    "cypress:e2e:headless": ".\\node_modules\\.bin\\cypress run"
   },
   "repository": {
     "type": "git",
