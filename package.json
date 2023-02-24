@@ -1,5 +1,5 @@
 {
-  "name": "cypress-qa17",
+  "name": "cypress-qa-academy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FilipNedovic/cypress-qa17.git"
+    "url": "git+https://github.com/FilipNedovic/cypress-qa-academy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FilipNedovic/cypress-qa17/issues"
+    "url": "https://github.com/FilipNedovic/cypress-qa-academy/issues"
   },
-  "homepage": "https://github.com/FilipNedovic/cypress-qa17#readme",
+  "homepage": "https://github.com/FilipNedovic/cypress-qa-academy#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.1.0"
